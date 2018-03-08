@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container>div {
+    background: #0074D9;
+    width: 170px;
+    height: 120px;
+    margin: 4px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 80pt;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 540px;
+    margin-top: 70px;
+    position: absolute;
+    left: 505px;
+}
+
+.container>div:hover {
+    cursor: pointer;
+}
