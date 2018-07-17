@@ -1,0 +1,15 @@
+{
+      { label: 'Action', id: 'action', dataType: 'text', sortable: false, enableFiltering: false },
+      { label: 'Client', id: 'client', dataType: 'text' },
+      { label: 'Sub-Client', id: 'sub-client', dataType: 'text' },
+      { label: 'Workflow', id: 'workflow', dataType: 'text' },
+      { label: 'Status', id: 'status', dataType: 'text' },
+      { label: '', id: 'icon-status', dataType: 'text', sortable: false, enableFiltering: false },
+      { label: 'Start Time', id: 'start-time', dataType: 'date' },
+      { label: 'End Time', id: 'end-time', dataType: 'date' },
+      { label: 'Total Time', id: 'total-time', dataType: 'date' },
+      { label: '# of Patients', id: 'num-patients', dataType: 'text' },
+      { label: '# of Records', id: 'num-records', dataType: 'text' },
+      { label: '# Discarded', id: 'disgarded', dataType: 'text' },
+      { label: 'Job ID', id: 'job-id', dataType: 'text' }
+    }
